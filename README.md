@@ -25,6 +25,12 @@ Quick Start
 	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
 	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
+5. Jika terjadi error `language definition file bahasa.ldf was not found` maka ada yang perlu dilakukan install
+    - [Install macports](https://www.macports.org/install.php)
+    - install package `sudo port install texlive-lang-other`
+    - jika ada packaget latex yang tidak ditemukan install menggunakan perintah `sudo tlmgr install [nama paket]`. 
+        contohnya: `sudo tlmgr install multirow`
+    - Perintah di atas untuk OSX
 
 Contents
 --------
